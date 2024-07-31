@@ -1,0 +1,59 @@
+/*
+Author: Caleigh Lowther
+Date: July 31th 2024
+File Name: styles.min.CSS
+*/
+
+/*
+SUMMARY OF CHANGES: Lab 6 instructions: Create a minified version of your stylesheet.
+ Name it styles.min.css. *Used website to minify:https://www.toptal.com/developers/cssminifier*
+*/
+
+.action,main p{font-size:1.75em}
+#answer,.tel-link{width:80%;margin:0 auto}
+.limk,.mobile-nav a,.skip:focus,.tel-link a,footer a{text-decoration:none}
+#answer,.tel-link,table{margin:0 auto}
+.skip:focus,.tel-link,footer,nav,th{background-color:#2a1f14}
+caption,td,th{padding:1%}
+#answer,#contact,.action,.mobile-nav a,aside,footer,nav ul{text-align:center}
+body,footer,h1,header,img,main,nav,video{margin:0;padding:0;border:0}
+main,main h3{padding-top:2%}body{background-color:#f6eee4}
+img,video{max-width:100%;display:block}
+.skip{position:absolute;left:-999px}
+.skip:focus{color:#fff;padding:.5%;top:auto;left:auto;right:1px;z-index:1}
+nav ul{list-style-type:none;margin:0}
+#answer h2,#nav-links,.desktop,.tab-desk{display:none}
+#questions p{cursor:pointer}#answer{font-weight:700}
+.mobile-nav a{color:#fff;font-size:2em;padding:3%;display:block}
+.mobile-nav a.nav-icon{display:block;position:absolute;left:0;top:0;color:#f6eee4;padding:2%}
+.nav-icon div{height:40px;width:40px;color:#2a1f14}
+.mobile h1{margin:2% 0 0 3%}
+.mobile h1,.mobile h3{text-align:center;padding:2%}
+.mobile.emblema-one-regular h1{font-family:"Emblema One",system-ui;font-weight:400;font-style:normal}
+.mobile.lora h3,main.lora{font-family:Lora,serif;font-weight:400;font-style:normal}
+.action,.limk,.tel-link a,aside,caption{font-weight:700}
+main{font-family:Verdana,Arial,sans-serif}
+main ul{list-style-type:square}
+.limk{color:#4d3319;font-style:italic}
+#info ul{margin-left:10%}
+.tel-link{padding:2%}
+.tel-link a{color:#2a1f14}
+footer{color:#f6eee4;padding:1% 0}
+footer a{color:#f3e6d8}
+#social img{display:inline-block;padding:4%}
+@media print{body{background-color:#fff;color:#000}}
+@media screen and (min-width:620px){.tab-desk,nav li a{display:block}nav li,nav li a{font-family:Geneva,Arial,sans-serif;font-weight:700}.mobile,.mobile-nav,.mobile-tablet{display:none}nav ul{list-style-type:none;text-align:center}nav li{border-top:none;display:inline-block;font-size:1.25em}nav li a{color:#f6eee4;text-decoration:none}form{width:70%;margin:0 auto}footer{overflow:auto}.copyright{float:left;width:65%}#social{float:right;width:25%}}
+@media screen and (min-width:1000px){.desktop{display:block}.mobile-tablet{display:none}nav li{font-size:1.5em}nav li a{padding:.5em 1.5em}nav li a:hover{color:#2a1f14;opacity:.5;background-color:#78593a}form{width:auto}.form-grid{display:grid;grid-template-columns:auto auto;grid-gap:20px}.btn{grid-column:span 2}}
+@media screen and (min-width:1921px){body{background-image:linear-gradient(#f6eee4,#78593a)}#wrapper{width:1920px;margin:0 auto}.main{background-color:#f6eee4}.grid{column-count:4}.aside{grid-column:span 4;font-size:3em}}
+.round{border-radius:6px}
+table,td,th{border:1px solid #2a1f14}
+table{border-collapse:collapse}
+th{color:#fff;font-size:1.15em}
+tr:nth-child(odd){background-color:#deccba}
+caption{font-size:1.5em}
+aside,figcaption,figure{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}
+aside{font-size:1.5em;text-shadow:4px 4px 10px #c5a687}
+figure{border:4px solid #2a1f14;box-shadow:6px 6px 10px #c5a687;max-width:400px;margin:2% auto}
+figcaption{padding:2%;border-top:4px solid #2a1f14}
+
+

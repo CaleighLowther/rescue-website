@@ -1,0 +1,51 @@
+<!--
+	Name: Caleigh Lowther
+	File Name: sitemap.xml
+	Date: 07/31/2024
+	Purpose: Create sitemap for these urls: http://www.exampledomain.com/about.html
+http://www.exampledomain.com/contact.html
+http://www.exampledomain.com/FAQs.html
+http://www.exampledomain.com/gallery.html
+http://www.exampledomain.com/index.html
+http://www.exampledomain.com/partnership.html-- per lab 6 instructions
+
+*Used these websites to help in creation: 
+https://blog.hubspot.com/website/what-is-xml-file
+https://www.xml-sitemaps.com/details-www.google.com-86895736.html
+https://www.xml-sitemaps.com/download/www.google.com-86895736/sitemap.xml?view=1
+*
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://www.exampledomain.com/about.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://www.exampledomain.com/contact.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://www.exampledomain.com/FAQs.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://www.exampledomain.com/gallery.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>http://www.exampledomain.com/index.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://www.exampledomain.com/partnership.html</loc>
+        <lastmod>2024-07-30</lastmod>
+        <priority>0.8</priority>
+    </url>
+</urlset>
+
